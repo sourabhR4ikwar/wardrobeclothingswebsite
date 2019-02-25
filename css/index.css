@@ -59,3 +59,20 @@ footer{
 .nav-item:hover,.nav-link:hover,.nav-item.active a {
   color: #EA1E63 !important;
 }
+
+#brand {
+    transition: 1s;
+    width: 0;
+}
+
+#brand.width0{
+  width: 200px;
+}
+
+header .container .row{
+  border-bottom: 1px solid lightgrey;
+}
+
+.card {
+  box-shadow : 1px 1px  15px 1px lightgrey;
+}
