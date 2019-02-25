@@ -1,0 +1,61 @@
+ nav button.navbar-toggler {
+  padding: 0;
+  background: none;
+  border: none;
+}
+
+nav button div{
+  width: 25px;
+  height: 4px;
+  background: #282828;
+  border-radius: 10px;
+  margin: 2px;
+}
+
+footer .container{
+  color: #ffffff;
+  text-align: center;
+  padding: 20px;
+}
+
+footer{
+  background: #282828;
+}
+
+.btn-outline-success {
+  border-color: #EA1E63;
+  background-color: #EA1E63;
+  color: #ffffff;
+  border-top-right-radius:  100px;
+  border-bottom-right-radius:  100px;
+  margin-left: -9px;
+}
+
+.btn-outline-success:hover,.btn-outline-success:focus{
+  background-color: #282828;
+}
+
+#searchBox {
+  padding: 0 10px;
+  border-top-left-radius:  100px;
+  border-bottom-left-radius:  100px;
+}
+#searchBox:active, #searchBox:focus{
+  border-color:#282828;
+  box-shadow: none;
+}
+
+.collapse a .fa-user {
+  font-size: 1.5em;
+  margin-left: 1em;
+  margin-top: 5px;
+  color: #EA1E63;
+}
+
+.form-control {
+    display: inline;
+    width: 70%;
+  }
+.nav-item:hover,.nav-link:hover,.nav-item.active a {
+  color: #EA1E63 !important;
+}
