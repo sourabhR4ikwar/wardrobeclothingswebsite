@@ -1,9 +1,12 @@
+/* ----------- Nav ------------------- */
  nav button.navbar-toggler {
   padding: 0;
   background: none;
   border: none;
 }
-
+* {
+  font-family: 'Poppins', sans-serif;
+}
 nav button div{
   width: 25px;
   height: 4px;
@@ -12,10 +15,12 @@ nav button div{
   margin: 2px;
 }
 
+/* ----------- Nav ------------------- */
 footer .container{
   color: #ffffff;
   text-align: center;
   padding: 20px;
+  font-size: 0.5em;
 }
 
 footer{
@@ -45,13 +50,6 @@ footer{
   box-shadow: none;
 }
 
-.collapse a .fa-user {
-  font-size: 1.5em;
-  margin-left: 1em;
-  margin-top: 5px;
-  color: #EA1E63;
-}
-
 .form-control {
     display: inline;
     width: 70%;
@@ -75,4 +73,12 @@ header .container .row{
 
 .card {
   box-shadow : 1px 1px  15px 1px lightgrey;
+  text-align: center;
+}
+
+.btn-dark {
+  background-color: #282828;
+}
+.card-footer {
+  background-color: #ffffff;
 }
