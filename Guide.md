@@ -8,6 +8,7 @@ Color Palette :
 
 Pages:
 1. Home
+3. product page;
 2. Catalog (php Album) > image/card gallery
 3. About Page
 4. Contact

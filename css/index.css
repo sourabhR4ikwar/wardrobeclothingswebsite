@@ -14,19 +14,46 @@ nav button div{
   border-radius: 10px;
   margin: 2px;
 }
+#topArrow{
+  color: #282828;
+  font-size: 1em;
+  visibility: hidden;
+}
 
+.fixed-top #topArrow{
+  visibility: visible;
+}
+@media (min-width: 769px){
+#topArrow{
+  position: relative;
+  bottom: -90vh;
+  background-color: #EA1E63;
+  color: white;
+  border-radius: 100px;
+  padding:5px 10px;
+}
+}
 /* ----------- Nav ------------------- */
+/* -----------Footer----------- */
 footer .container{
   color: #ffffff;
   text-align: center;
-  padding: 20px;
   font-size: 0.5em;
 }
-
+footer .container p{
+  margin-bottom: 0;
+}
 footer{
   background: #282828;
 }
-
+footer .container div{
+  margin: 10px auto;
+}
+footer .container div i{
+  font-size: 3em;
+  margin: 2px 10px;
+}
+/* -----------Footer----------- */
 .btn-outline-success {
   border-color: #EA1E63;
   background-color: #EA1E63;
@@ -81,4 +108,49 @@ header .container .row{
 }
 .card-footer {
   background-color: #ffffff;
+}
+
+/* ---------- sections ----------- */
+
+.sectionTitle h1 {
+  font-size: 36px;
+}
+.sectionTitle p{
+  font-family: 'Dancing Script', cursive;
+  color: lightgrey;
+  font-size: 24px;
+  margin-top: -10px;
+}
+
+.sectionTitle div{
+  display: block;
+  margin: 0 auto;
+  margin-top: -10px;
+  height: 4px;
+  width: 30px;
+  background-color: #EA1E63;
+}
+/* ------------ Card ---------------- */
+.card .card-title{
+  font-size: 15px;
+  font-weight: 600;
+}
+.card .card-text{
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.card .card-text span{
+  color: lightgrey;
+}
+
+.card .card-footer{
+  font-size: 14px;
+  font-weight: 700;
+  color: #EA1E63;
+}
+.card .card-footer strike{
+  font-size: 12px;
+  font-weight: 400;
+  color: #D4D4D4;
 }
